@@ -1,0 +1,14 @@
+$(document).ready(function(){
+ $(".left").click(function(){
+    $("div").animate({left:'350px'});
+  });
+  $(".right").click(function(){
+	  $("div").animate({left:'-15px'});
+  });
+  $(".up").click(function(){
+	  $("div").animate({top:'5px'});
+  });
+ $(".down").click(function(){
+	  $("div").animate({top:'150px'});
+  });
+}); 
